@@ -10,7 +10,8 @@ var http = require('http');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://parag:12345@cluster0.nltl0ox.mongodb.net//apitest')
+
+mongoose.connect('mongodb+srv://parag:12345@cluster0.nltl0ox.mongodb.net/apitest')
   .then(() => console.log('Connected!'));
 
 /**
